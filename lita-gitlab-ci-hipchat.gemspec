@@ -3,9 +3,9 @@ Gem::Specification.new do |spec|
   spec.version       = "1.0.0"
   spec.authors       = ["Loïc Guitaut"]
   spec.email         = ["flink@belfalas.eu"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.description   = %q{Receive and display nicely web hooks from GitLab CI in HipChat.}
+  spec.summary       = %q{A Lita handler to receive GitLab CI web hooks}
+  spec.homepage      = "https://github.com/Flink/lita-gitlab-ci-hipchat"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
