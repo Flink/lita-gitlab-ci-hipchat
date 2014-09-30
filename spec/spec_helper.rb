@@ -6,5 +6,6 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
 ]
 SimpleCov.start { add_filter "/spec/" }
 
+require 'fabrication'
 require "lita-gitlab-ci-hipchat"
 require "lita/rspec"

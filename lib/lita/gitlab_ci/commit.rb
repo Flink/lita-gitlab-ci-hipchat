@@ -24,7 +24,7 @@ module Lita
       end
 
       def date
-        Time.parse(commit.timestamp).strftime('%Y-%m-%d %H:%M')
+        Time.parse(commit.timestamp).utc.strftime('%Y-%m-%d %H:%M')
       end
 
       def author
