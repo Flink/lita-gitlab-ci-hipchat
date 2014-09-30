@@ -1,6 +1,6 @@
 # lita-gitlab-ci-hipchat
 
-[![Build Status](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat.svg?branch=develop)](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat) [![Coverage Status](https://img.shields.io/coveralls/Flink/lita-gitlab-ci-hipchat.svg)](https://coveralls.io/r/Flink/lita-gitlab-ci-hipchat)
+[![Build Status](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat.svg?branch=develop)](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat) [![Coverage Status](https://coveralls.io/repos/Flink/lita-gitlab-ci-hipchat/badge.png?branch=develop)](https://coveralls.io/r/Flink/lita-gitlab-ci-hipchat?branch=develop)
 
 Receive and display nicely web hooks from GitLab CI in HipChat.
 
