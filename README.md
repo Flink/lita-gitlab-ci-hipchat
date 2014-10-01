@@ -1,6 +1,6 @@
 # lita-gitlab-ci-hipchat
 
-[![Gem Version](https://badge.fury.io/rb/lita-gitlab-ci-hipchat.svg)](http://badge.fury.io/rb/lita-gitlab-ci-hipchat) [![Build Status](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat.svg?branch=develop)](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat) [![Coverage Status](https://coveralls.io/repos/Flink/lita-gitlab-ci-hipchat/badge.png?branch=develop)](https://coveralls.io/r/Flink/lita-gitlab-ci-hipchat?branch=develop) [![Code Climate](https://codeclimate.com/github/Flink/lita-gitlab-ci-hipchat/badges/gpa.svg)](https://codeclimate.com/github/Flink/lita-gitlab-ci-hipchat)
+[![Gem Version](https://badge.fury.io/rb/lita-gitlab-ci-hipchat.svg)](http://badge.fury.io/rb/lita-gitlab-ci-hipchat) [![Build Status](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat.svg?branch=develop)](https://travis-ci.org/Flink/lita-gitlab-ci-hipchat) [![Coverage Status](https://coveralls.io/repos/Flink/lita-gitlab-ci-hipchat/badge.png?branch=develop)](https://coveralls.io/r/Flink/lita-gitlab-ci-hipchat?branch=develop) [![Code Climate](https://codeclimate.com/github/Flink/lita-gitlab-ci-hipchat/badges/gpa.svg)](https://codeclimate.com/github/Flink/lita-gitlab-ci-hipchat) [![Dependency Status](https://gemnasium.com/Flink/lita-gitlab-ci-hipchat.svg)](https://gemnasium.com/Flink/lita-gitlab-ci-hipchat)
 
 Receive and display nicely web hooks from GitLab CI in HipChat.
 
