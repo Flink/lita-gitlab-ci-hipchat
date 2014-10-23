@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-gitlab-ci-hipchat"
-  spec.version       = "1.0.0"
+  spec.version       = "1.1.0"
   spec.authors       = ["Loïc Guitaut"]
   spec.email         = ["flink@belfalas.eu"]
   spec.description   = %q{Receive and display nicely web hooks from GitLab CI in HipChat.}
