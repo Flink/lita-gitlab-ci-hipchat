@@ -1,10 +1,12 @@
 module Lita
   module Handlers
-    class GitlabCiHipchat < Handler
-      http.post '/gitlab-ci', :receive
+    class GitlabCiHipchat
+      extend Lita::Handler::HTTPRouter
 
-      def self.default_config(config)
-      end
+      config :api_token, type: String, required: true
+      config :room, type: String, required: true
+
+      http.post '/gitlab-ci', :receive
 
       def receive(request, response)
         json_data = JSON.parse(request.body.read)
