@@ -9,9 +9,11 @@ Receive and display nicely web hooks from GitLab CI in HipChat.
 Add lita-gitlab-ci-hipchat to your Lita instance's Gemfile:
 
 ``` ruby
-gem 'lita-gitlab-ci-hipchat'
+gem 'lita-gitlab-ci-hipchat', '~> 1.1'
 ```
 
+
+For Lita 3.x, use the 1.0 version of this gem.
 
 ## Configuration
 
