@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe Lita::Handlers::GitlabCiHipchat, lita_handler: true do
-  it { routes_http(:post, '/gitlab-ci').to(:receive) }
+  it { is_expected.to route_http(:post, '/gitlab-ci').to(:receive) }
 
   describe '#receive(request, response)' do
     let(:request)           { double(Rack::Request) }

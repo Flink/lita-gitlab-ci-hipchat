@@ -20,14 +20,14 @@ Lita.configure do |config|
   # The API token for your bot’s user
   config.handlers.gitlab_ci_hipchat.api_token = 'token'
   # The room to be notified (HipChat name, not JID)
-  config.handlers.gitlab_ci_hipchat.room      = 'my_room'
+  config.handlers.gitlab_ci_hipchat.room = 'my_room'
 end
 ```
 
 ## Usage
 
 This handler add a HTTP route at `/gitlab-ci`. So you have to add a web
-hook pointing to that URL (http://lita-bot.tld/gitlab-ci).
+hook pointing to that URL in GitLab CI (http://lita-bot.tld/gitlab-ci).
 
 ## License
 
