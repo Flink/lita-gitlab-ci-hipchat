@@ -23,4 +23,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
   spec.add_development_dependency "fabrication"
+  spec.add_development_dependency "pronto"
+  spec.add_development_dependency "pronto-rubocop"
+  spec.add_development_dependency "pronto-flay"
+  spec.add_development_dependency "pronto-reek"
+  spec.add_development_dependency "pronto-poper"
 end
