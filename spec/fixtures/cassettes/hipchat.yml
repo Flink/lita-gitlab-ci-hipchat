@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.hipchat.com/v2/room/Test/notification?auth_token=6ed672d3a40eecadaf6cf4f83fc36a88
+    body:
+      encoding: UTF-8
+      string: '{"room_id":"Test","from":"lita","message":"<p>Build for <a href=\"\"></a>
+        (): <strong>success</strong>!</p>","message_format":"html","color":"green","notify":false}'
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - text/html
+      Date:
+      - Thu, 06 Nov 2014 23:33:44 GMT
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Ratelimit-Limit:
+      - '100'
+      X-Ratelimit-Remaining:
+      - '100'
+      X-Ratelimit-Reset:
+      - '1415316840.0'
+      X-Xss-Protection:
+      - 1; mode=block
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 06 Nov 2014 23:33:44 GMT
+recorded_with: VCR 2.9.3
