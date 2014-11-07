@@ -1,8 +1,10 @@
 language: ruby
 rvm:
-  - 2.1.3
-script: bundle exec rake
+  - 2.1.4
 before_install:
   - gem update --system
 services:
   - redis-server
+script:
+  - 'export PULL_REQUEST_ID=${TRAVIS_PULL_REQUEST} && bundle exec pronto run -f github_pr -c develop'
+  - bundle exec rake
